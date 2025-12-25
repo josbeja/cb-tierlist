@@ -1,0 +1,89 @@
+.card {
+    position: relative;
+    background-color: var(--color-bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 160px;
+    /* Fixed width */
+    min-height: 224px;
+    /* Accommodate image + text */
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* ... existing hover styles ... */
+
+.imageContainer {
+    width: 160px;
+    height: 224px;
+    /* Fixed height for image */
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    /* Maintain cover to fill the 160x260 area, cropping if necessary but avoiding distortion */
+    object-position: top center;
+    /* Focus on the top part of the unit usually */
+    transition: transform 0.3s ease;
+}
+
+.card:hover .image {
+    transform: scale(1.05);
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    display: flex;
+    justify-content: center;
+    z-index: 20;
+    pointer-events: none;
+}
+
+.card:hover .content {
+    opacity: 1;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+    margin-top: 0.5rem;
+}
+
+.glow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(207, 181, 59, 0.05) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.card:hover .glow {
+    opacity: 1;
+}

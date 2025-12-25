@@ -1,0 +1,36 @@
+import React from 'react';
+import styles from './UnitCard.module.css';
+import { processImageUrl } from '../utils/imageUtils';
+
+interface UnitCardProps {
+    name: string;
+    imageUrl?: string;
+}
+
+export const UnitCard: React.FC<UnitCardProps> = ({ name, imageUrl }) => {
+    const processedImage = processImageUrl(imageUrl);
+
+    return (
+        <div className={styles.card}>
+            <div className={styles.imageContainer}>
+                {processedImage ? (
+                    <img
+                        src={processedImage}
+                        alt={name}
+                        className={styles.image}
+                        onError={(e) => {
+                            e.currentTarget.style.display = 'none';
+                            e.currentTarget.parentElement!.style.backgroundColor = 'rgba(255,255,255,0.05)';
+                        }}
+                    />
+                ) : (
+                    <div style={{ width: '100%', height: '100%', backgroundColor: 'rgba(255,255,255,0.05)' }} />
+                )}
+            </div>
+            <div className={styles.content}>
+                <span className={styles.name}>{name}</span>
+            </div>
+            <div className={styles.glow} />
+        </div>
+    );
+};
