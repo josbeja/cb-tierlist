@@ -18,7 +18,7 @@ export const FeedbackModal: React.FC<FeedbackModalProps> = ({ isOpen, onClose })
         setIsSubmitting(true);
 
         try {
-            const response = await fetch(`${window.location.protocol}//${window.location.hostname}:3001/api/feedback`, {
+            const response = await fetch('https://cb-tierlist-server.onrender.com/api/feedback', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
