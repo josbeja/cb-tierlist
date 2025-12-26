@@ -42,13 +42,17 @@ app.post('/api/feedback', async (req, res) => {
 
     try {
         if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
+            console.log(`Attempting to send email from ${userName}...`);
+            console.log(`Using EMAIL_USER: ${process.env.EMAIL_USER ? 'SET' : 'NOT SET'}`);
+            console.log(`Using EMAIL_PASS: ${process.env.EMAIL_PASS ? 'SET (length: ' + process.env.EMAIL_PASS.length + ')' : 'NOT SET'}`);
+
             await transporter.sendMail({
                 from: process.env.EMAIL_USER,
                 to: 'zombyjab@gmail.com',
                 subject: emailSubject,
                 text: content
             });
-            console.log(`Email sent from ${userName}`);
+            console.log(`✓ Email sent successfully from ${userName}`);
         } else {
             console.log('--- MOCK EMAIL SEND ---');
             console.log(`To: zombyjab@gmail.com`);
@@ -58,7 +62,11 @@ app.post('/api/feedback', async (req, res) => {
         }
         res.status(200).json({ success: true });
     } catch (error) {
-        console.error('Error sending email:', error);
+        console.error('✗ ERROR sending email:');
+        console.error('Error message:', error.message);
+        console.error('Error code:', error.code);
+        console.error('Error response:', error.response);
+        console.error('Full error:', error);
         res.status(500).json({ error: 'Failed to send feedback' });
     }
 });
