@@ -35,7 +35,7 @@ app.post('/api/feedback', async (req, res) => {
             console.log(`Using RESEND_API_KEY: ${process.env.RESEND_API_KEY ? 'SET' : 'NOT SET'}`);
 
             const { data, error } = await resend.emails.send({
-                from: 'CB Tierlist <onboarding@resend.dev>',
+                from: 'CB Tierlist <noreply@notifications.zombyjab.com>',
                 to: ['zombyjab@gmail.com'],
                 subject: emailSubject,
                 text: `Feedback from: ${userName}\n\n${content}`,
