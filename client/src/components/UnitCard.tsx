@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './UnitCard.module.css';
 import { processImageUrl } from '../utils/imageUtils';
@@ -9,19 +9,50 @@ interface UnitCardProps {
 }
 
 export const UnitCard: React.FC<UnitCardProps> = ({ name, imageUrl }) => {
-    const processedImage = processImageUrl(imageUrl);
     const navigate = useNavigate();
+    const cardRef = useRef<HTMLDivElement>(null);
+    const [isVisible, setIsVisible] = useState(false);
+    const [imageSrc, setImageSrc] = useState<string | undefined>(undefined);
+
+    useEffect(() => {
+        if (!cardRef.current) return;
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting && !isVisible) {
+                        setIsVisible(true);
+                        // Process image URL only when card becomes visible
+                        const processed = processImageUrl(imageUrl);
+                        setImageSrc(processed);
+                    }
+                });
+            },
+            {
+                rootMargin: '50px', // Start loading 50px before card is visible
+                threshold: 0.01
+            }
+        );
+
+        observer.observe(cardRef.current);
+
+        return () => {
+            if (cardRef.current) {
+                observer.unobserve(cardRef.current);
+            }
+        };
+    }, [imageUrl, isVisible]);
 
     const handleClick = () => {
         navigate(`/unit/${encodeURIComponent(name)}`);
     };
 
     return (
-        <div className={styles.card} onClick={handleClick} style={{ cursor: 'pointer' }}>
+        <div ref={cardRef} className={styles.card} onClick={handleClick} style={{ cursor: 'pointer' }}>
             <div className={styles.imageContainer}>
-                {processedImage ? (
+                {isVisible && imageSrc ? (
                     <img
-                        src={processedImage}
+                        src={imageSrc}
                         alt={name}
                         className={styles.image}
                         draggable={false}
