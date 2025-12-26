@@ -18,6 +18,8 @@ export const UnitCard: React.FC<UnitCardProps> = ({ name, imageUrl }) => {
                         src={processedImage}
                         alt={name}
                         className={styles.image}
+                        draggable={false}
+                        onDragStart={(e) => e.preventDefault()}
                         onError={(e) => {
                             e.currentTarget.style.display = 'none';
                             e.currentTarget.parentElement!.style.backgroundColor = 'rgba(255,255,255,0.05)';

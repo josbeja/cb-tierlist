@@ -8,3 +8,14 @@ services:
     volumes:
       - ./client/public/data:/usr/share/nginx/html/data
     restart: always
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3000"
+    environment:
+      - EMAIL_USER
+      - EMAIL_PASS
+    restart: always
