@@ -1,68 +1,34 @@
 import { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/Layout';
-import { TierList } from './components/TierList';
-import type { TierList as TierListType, UnitMap } from './types';
+import { TierListPage } from './pages/TierListPage';
+import { UnitDetailPage } from './pages/UnitDetailPage';
 
 function App() {
-  const [tierData, setTierData] = useState<TierListType | null>(null);
-  const [unitData, setUnitData] = useState<UnitMap>({});
   const [lastUpdated, setLastUpdated] = useState<string>('');
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchLastUpdated = async () => {
       try {
-        const [tierlistRes, unitsRes] = await Promise.all([
-          fetch('/data/tierlist.json'),
-          fetch('/data/units.json')
-        ]);
-
-        if (!tierlistRes.ok || !unitsRes.ok) {
-          throw new Error('Failed to fetch data');
-        }
-
-        const tierlistData = await tierlistRes.json();
-        const units = await unitsRes.json();
-
-        setTierData(tierlistData.tiers);
-        setLastUpdated(tierlistData.lastUpdated);
-        setUnitData(units);
-      } catch (err) {
-        setError(err instanceof Error ? err.message : 'An error occurred');
-        console.error(err);
-      } finally {
-        setLoading(false);
+        const response = await fetch('/data/tierlist.json');
+        const data = await response.json();
+        setLastUpdated(data.lastUpdated);
+      } catch (error) {
+        console.error('Error fetching last updated date:', error);
       }
     };
-
-    fetchData();
+    fetchLastUpdated();
   }, []);
 
-  if (loading) {
-    return (
-      <Layout lastUpdated={lastUpdated}>
-        <div style={{ padding: '2rem', textAlign: 'center', color: '#888' }}>
-          Loading tier list data...
-        </div>
-      </Layout>
-    );
-  }
-
-  if (error) {
-    return (
-      <Layout lastUpdated={lastUpdated}>
-        <div style={{ padding: '2rem', textAlign: 'center', color: '#ff4444' }}>
-          Error loading data: {error}
-        </div>
-      </Layout>
-    );
-  }
-
   return (
-    <Layout lastUpdated={lastUpdated}>
-      {tierData && <TierList data={tierData} units={unitData} />}
-    </Layout>
+    <BrowserRouter>
+      <Layout lastUpdated={lastUpdated}>
+        <Routes>
+          <Route path="/" element={<TierListPage />} />
+          <Route path="/unit/:unitName" element={<UnitDetailPage />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 

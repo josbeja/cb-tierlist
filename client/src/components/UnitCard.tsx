@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './UnitCard.module.css';
 import { processImageUrl } from '../utils/imageUtils';
 
@@ -9,9 +10,14 @@ interface UnitCardProps {
 
 export const UnitCard: React.FC<UnitCardProps> = ({ name, imageUrl }) => {
     const processedImage = processImageUrl(imageUrl);
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate(`/unit/${encodeURIComponent(name)}`);
+    };
 
     return (
-        <div className={styles.card}>
+        <div className={styles.card} onClick={handleClick} style={{ cursor: 'pointer' }}>
             <div className={styles.imageContainer}>
                 {processedImage ? (
                     <img
