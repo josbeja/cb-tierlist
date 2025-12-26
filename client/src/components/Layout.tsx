@@ -11,7 +11,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, lastUpdated }) => {
     const [userCount, setUserCount] = useState<number>(0);
 
     useEffect(() => {
-        const socket = io('http://localhost:3001');
+        const socket = io('https://cb-tierlist-server.onrender.com:3001');
 
         socket.on('connect', () => {
             console.log('Connected to socket server');
