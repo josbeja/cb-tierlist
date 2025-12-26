@@ -1,7 +1,7 @@
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
-const nodemailer = require('nodemailer');
+const { Resend } = require('resend');
 const cors = require('cors');
 
 const app = express();
@@ -16,16 +16,8 @@ const io = new Server(server, {
     }
 });
 
-// Email transporter setup
-const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 465,
-    secure: true, // Use SSL
-    auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
-    }
-});
+// Resend setup
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 app.post('/api/feedback', async (req, res) => {
     const { name, content } = req.body;
@@ -38,18 +30,22 @@ app.post('/api/feedback', async (req, res) => {
     const emailSubject = `feedback cb-tierlist, ${userName}`;
 
     try {
-        if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
+        if (process.env.RESEND_API_KEY) {
             console.log(`Attempting to send email from ${userName}...`);
-            console.log(`Using EMAIL_USER: ${process.env.EMAIL_USER ? 'SET' : 'NOT SET'}`);
-            console.log(`Using EMAIL_PASS: ${process.env.EMAIL_PASS ? 'SET (length: ' + process.env.EMAIL_PASS.length + ')' : 'NOT SET'}`);
+            console.log(`Using RESEND_API_KEY: ${process.env.RESEND_API_KEY ? 'SET' : 'NOT SET'}`);
 
-            await transporter.sendMail({
-                from: process.env.EMAIL_USER,
-                to: 'zombyjab@gmail.com',
+            const { data, error } = await resend.emails.send({
+                from: 'CB Tierlist <onboarding@resend.dev>',
+                to: ['zombyjab@gmail.com'],
                 subject: emailSubject,
-                text: content
+                text: `Feedback from: ${userName}\n\n${content}`,
             });
-            console.log(`✓ Email sent successfully from ${userName}`);
+
+            if (error) {
+                throw error;
+            }
+
+            console.log(`✓ Email sent successfully from ${userName}. ID: ${data.id}`);
         } else {
             console.log('--- MOCK EMAIL SEND ---');
             console.log(`To: zombyjab@gmail.com`);
@@ -61,9 +57,7 @@ app.post('/api/feedback', async (req, res) => {
     } catch (error) {
         console.error('✗ ERROR sending email:');
         console.error('Error message:', error.message);
-        console.error('Error code:', error.code);
-        console.error('Error response:', error.response);
-        console.error('Full error:', error);
+        console.error('Error details:', error);
         res.status(500).json({ error: 'Failed to send feedback' });
     }
 });
