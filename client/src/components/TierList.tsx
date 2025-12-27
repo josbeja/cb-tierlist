@@ -1,5 +1,7 @@
 import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Crosshair } from 'lucide-react';
+import { GiHorseHead, GiSwordsEmblem } from 'react-icons/gi';
 import type { TierList as TierListType, UnitMap } from '../types';
 import { TierRow } from './TierRow';
 
@@ -25,6 +27,25 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
     // Get all unique tier IDs for the filter controls
     const allTierIds = data.map(t => t.id);
 
+    // Era configuration
+    const ERA_COLORS: Record<string, string> = {
+        'Chivalric Era': '#009500ff', // Dark Green
+        'Feudal Era': '#555555ff',    // Gray
+        'Golden Era': '#FFD700',    // Gold
+        'Heroic Era': '#ca2ecae2',    // Violet
+        'Rustic Era': '#c0c0c0ff',    // Light Gray
+        'Silver Era': '#3553c0ff',    // Light Blue
+    };
+
+    const ERA_ORDER = [
+        'Golden Era',
+        'Heroic Era',
+        'Silver Era',
+        'Chivalric Era',
+        'Feudal Era',
+        'Rustic Era',
+    ];
+
     // Get unique eras and types from all units
     const { uniqueEras, uniqueTypes } = useMemo(() => {
         const eras = new Set<string>();
@@ -34,7 +55,15 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
             types.add(unit.type);
         });
         return {
-            uniqueEras: Array.from(eras).sort(),
+            uniqueEras: Array.from(eras).sort((a, b) => {
+                const indexA = ERA_ORDER.indexOf(a);
+                const indexB = ERA_ORDER.indexOf(b);
+                // Handle cases where era might not be in the list (put them at the end)
+                if (indexA === -1 && indexB === -1) return a.localeCompare(b);
+                if (indexA === -1) return 1;
+                if (indexB === -1) return -1;
+                return indexA - indexB;
+            }),
             uniqueTypes: Array.from(types).sort()
         };
     }, [units]);
@@ -262,7 +291,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
                                         checked={selectedEras.includes(era)}
                                         onChange={() => toggleEra(era)}
                                     />
-                                    <span style={{ fontSize: '0.9rem' }}>{era}</span>
+                                    <span style={{ fontSize: '0.9rem', color: ERA_COLORS[era] || 'inherit', fontWeight: 'bold' }}>{era}</span>
                                 </label>
                             ))}
                         </div>
@@ -270,16 +299,30 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
                         {/* Type Filter */}
                         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
                             <span style={{ fontSize: '0.9rem', color: '#aaa', marginRight: '0.5rem', minWidth: '80px' }}>{t('filters.type')}:</span>
-                            {uniqueTypes.map(type => (
-                                <label key={type} style={{ display: 'flex', alignItems: 'center', gap: '4px', cursor: 'pointer', backgroundColor: 'rgba(255,255,255,0.05)', padding: '4px 8px', borderRadius: '4px' }}>
-                                    <input
-                                        type="checkbox"
-                                        checked={selectedTypes.includes(type)}
-                                        onChange={() => toggleType(type)}
-                                    />
-                                    <span style={{ fontSize: '0.9rem' }}>{type}</span>
-                                </label>
-                            ))}
+                            {uniqueTypes.map(type => {
+                                let icon = null;
+                                if (type.includes('Cavalry')) {
+                                    icon = <GiHorseHead size={16} />;
+                                } else if (type.includes('Melee')) {
+                                    icon = <GiSwordsEmblem size={16} />;
+                                } else if (type.includes('Ranged')) {
+                                    icon = <Crosshair size={16} />;
+                                }
+
+                                return (
+                                    <label key={type} style={{ display: 'flex', alignItems: 'center', gap: '6px', cursor: 'pointer', backgroundColor: 'rgba(255,255,255,0.05)', padding: '4px 8px', borderRadius: '4px' }}>
+                                        <input
+                                            type="checkbox"
+                                            checked={selectedTypes.includes(type)}
+                                            onChange={() => toggleType(type)}
+                                        />
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                            {icon}
+                                            <span style={{ fontSize: '0.9rem' }}>{type}</span>
+                                        </div>
+                                    </label>
+                                );
+                            })}
                         </div>
 
                         {/* Tier Filters */}

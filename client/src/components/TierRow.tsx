@@ -72,6 +72,7 @@ export const TierRow: React.FC<TierRowProps> = ({ tier, units, viewMode }) => {
                             key={unitName}
                             name={unitName}
                             imageUrl={units[unitName]?.imageUrl}
+                            hasGuide={units[unitName]?.hasGuide}
                         />
                     ))
                 ) : (

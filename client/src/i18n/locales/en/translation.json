@@ -40,6 +40,7 @@
         "tier": "Tier",
         "type": "Type",
         "season": "Season",
-        "backToList": "Back to Tier List"
+        "backToList": "Back to Tier List",
+        "back": "Back"
     }
 }

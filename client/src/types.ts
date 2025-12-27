@@ -24,6 +24,7 @@ export interface UnitData {
     type: string;
     season: string;
     guideSlug?: string; // Optional: slug for guide markdown files
+    hasGuide?: boolean;
 }
 
 export type UnitMap = Record<string, UnitData>;

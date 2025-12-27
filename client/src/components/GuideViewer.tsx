@@ -3,13 +3,22 @@ import { useTranslation } from 'react-i18next';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
+import rehypeSlug from 'rehype-slug';
+import GithubSlugger from 'github-slugger';
 import './GuideViewer.css';
+
+interface GuideHeading {
+    id: string;
+    text: string;
+    level: number;
+}
 
 interface GuideViewerProps {
     unitSlug: string;
+    onLoaded?: (hasContent: boolean, headings?: GuideHeading[]) => void;
 }
 
-export const GuideViewer: React.FC<GuideViewerProps> = ({ unitSlug }) => {
+export const GuideViewer: React.FC<GuideViewerProps> = ({ unitSlug, onLoaded }) => {
     const { i18n } = useTranslation();
     const [markdown, setMarkdown] = useState('');
     const [loading, setLoading] = useState(true);
@@ -35,9 +44,38 @@ export const GuideViewer: React.FC<GuideViewerProps> = ({ unitSlug }) => {
 
                 const content = await response.text();
                 setMarkdown(content);
+
+                // Extract headings for TOC
+                // We're looking for # Heading (h1) -> we usually skip h1 if it matches unit name
+                // ## Heading (h2)
+                // ### Heading (h3)
+                const headings: GuideHeading[] = [];
+                const lines = content.split('\n');
+                let inCodeBlock = false;
+                const slugger = new GithubSlugger();
+
+                lines.forEach(line => {
+                    if (line.trim().startsWith('```')) {
+                        inCodeBlock = !inCodeBlock;
+                        return;
+                    }
+                    if (inCodeBlock) return;
+
+                    const match = line.match(/^(#{2,3})\s+(.+)$/);
+                    if (match) {
+                        const level = match[1].length;
+                        const text = match[2];
+                        const id = slugger.slug(text);
+
+                        headings.push({ id, text, level });
+                    }
+                });
+
+                if (onLoaded) onLoaded(true, headings);
             } catch (err) {
                 console.error('Error loading guide:', err);
                 setError(true);
+                if (onLoaded) onLoaded(false);
             } finally {
                 setLoading(false);
             }
@@ -70,7 +108,7 @@ export const GuideViewer: React.FC<GuideViewerProps> = ({ unitSlug }) => {
         <div className="guide-viewer">
             <ReactMarkdown
                 remarkPlugins={[remarkGfm]}
-                rehypePlugins={[rehypeRaw]}
+                rehypePlugins={[rehypeRaw, rehypeSlug]}
                 components={{
                     img: ({ src, alt, ...props }) => {
                         const isAbsolute = src?.startsWith('http');

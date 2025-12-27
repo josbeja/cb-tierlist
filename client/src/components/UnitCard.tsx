@@ -2,13 +2,15 @@ import React, { useRef, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './UnitCard.module.css';
 import { processImageUrl } from '../utils/imageUtils';
+import { FaBook } from 'react-icons/fa';
 
 interface UnitCardProps {
     name: string;
     imageUrl?: string;
+    hasGuide?: boolean;
 }
 
-export const UnitCard: React.FC<UnitCardProps> = ({ name, imageUrl }) => {
+export const UnitCard: React.FC<UnitCardProps> = ({ name, imageUrl, hasGuide }) => {
     const navigate = useNavigate();
     const cardRef = useRef<HTMLDivElement>(null);
     const [isVisible, setIsVisible] = useState(false);
@@ -70,6 +72,11 @@ export const UnitCard: React.FC<UnitCardProps> = ({ name, imageUrl }) => {
                 <span className={styles.name}>{name}</span>
             </div>
             <div className={styles.glow} />
+            {hasGuide && (
+                <div className={styles.guideIndicator}>
+                    <FaBook />
+                </div>
+            )}
         </div>
     );
 };
