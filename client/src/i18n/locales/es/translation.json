@@ -1,0 +1,45 @@
+{
+    "header": {
+        "title": "Lista de Unidades",
+        "subtitle": "Conqueror's Blade",
+        "lastUpdated": "Última Actualización",
+        "feedback": "Comentarios"
+    },
+    "filters": {
+        "search": "Buscar unidades...",
+        "button": "Filtros",
+        "clear": "Limpiar Filtros",
+        "leadership": "Liderazgo",
+        "min": "Mín",
+        "max": "Máx",
+        "era": "Era",
+        "type": "Tipo",
+        "tiers": "Niveles",
+        "all": "TODOS"
+    },
+    "view": {
+        "showWrap": "Mostrar Todo (Envolver)",
+        "showScroll": "Mostrar Filas (Deslizar)"
+    },
+    "feedback": {
+        "title": "Enviar Comentario",
+        "nameLabel": "Nombre (Opcional)",
+        "namePlaceholder": "Anónimo",
+        "feedbackLabel": "Comentario",
+        "feedbackPlaceholder": "Escribe tu comentario aquí (máximo 500 caracteres)...",
+        "cancel": "Cancelar",
+        "send": "Enviar Comentario",
+        "sending": "Enviando...",
+        "success": "¡Comentario enviado! Gracias.",
+        "error": "Error al enviar el comentario. Por favor intenta de nuevo.",
+        "errorNetwork": "Ocurrió un error. Por favor intenta más tarde."
+    },
+    "unitDetail": {
+        "leadership": "Liderazgo",
+        "era": "Era",
+        "tier": "Nivel",
+        "type": "Tipo",
+        "season": "Temporada",
+        "backToList": "Volver a la Lista"
+    }
+}

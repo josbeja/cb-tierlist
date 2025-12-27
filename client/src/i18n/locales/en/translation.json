@@ -1,0 +1,45 @@
+{
+    "header": {
+        "title": "Units Tierlist",
+        "subtitle": "Conqueror's Blade",
+        "lastUpdated": "Last Updated",
+        "feedback": "Feedback"
+    },
+    "filters": {
+        "search": "Search units...",
+        "button": "Filters",
+        "clear": "Clear Filters",
+        "leadership": "Leadership",
+        "min": "Min",
+        "max": "Max",
+        "era": "Era",
+        "type": "Type",
+        "tiers": "Tiers",
+        "all": "ALL"
+    },
+    "view": {
+        "showWrap": "Show All (Wrap)",
+        "showScroll": "Show Rows (Scroll)"
+    },
+    "feedback": {
+        "title": "Send Feedback",
+        "nameLabel": "Name (Optional)",
+        "namePlaceholder": "Anonymous",
+        "feedbackLabel": "Feedback",
+        "feedbackPlaceholder": "Write your feedback here (max 500 characters)...",
+        "cancel": "Cancel",
+        "send": "Send Feedback",
+        "sending": "Sending...",
+        "success": "Feedback sent! Thank you.",
+        "error": "Failed to send feedback. Please try again.",
+        "errorNetwork": "An error occurred. Please try again later."
+    },
+    "unitDetail": {
+        "leadership": "Leadership",
+        "era": "Era",
+        "tier": "Tier",
+        "type": "Type",
+        "season": "Season",
+        "backToList": "Back to Tier List"
+    }
+}

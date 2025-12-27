@@ -23,6 +23,7 @@ export interface UnitData {
     tier_desc: string;
     type: string;
     season: string;
+    guideSlug?: string; // Optional: slug for guide markdown files
 }
 
 export type UnitMap = Record<string, UnitData>;

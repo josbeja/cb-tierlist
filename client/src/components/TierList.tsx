@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import type { TierList as TierListType, UnitMap } from '../types';
 import { TierRow } from './TierRow';
 
@@ -8,6 +9,7 @@ interface TierListProps {
 }
 
 export const TierList: React.FC<TierListProps> = ({ data, units }) => {
+    const { t } = useTranslation();
     const [viewMode, setViewMode] = useState<'scroll' | 'wrap'>('scroll');
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedTiers, setSelectedTiers] = useState<string[]>(data.map(t => t.id));
@@ -143,7 +145,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
                         {/* Search Input */}
                         <input
                             type="text"
-                            placeholder="Search units..."
+                            placeholder={t('filters.search')}
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
                             style={{
@@ -172,7 +174,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
                             }}
                         >
                             <span style={{ fontSize: '1rem' }}>{filtersExpanded ? '▼' : '▶'}</span>
-                            Filters
+                            {t('filters.button')}
                         </button>
 
                         {/* Clear Filters Button */}
@@ -187,7 +189,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
                                 cursor: 'pointer'
                             }}
                         >
-                            Clear Filters
+                            {t('filters.clear')}
                         </button>
                     </div>
 
@@ -203,7 +205,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
                             cursor: 'pointer'
                         }}
                     >
-                        {viewMode === 'scroll' ? 'Show All (Wrap)' : 'Show Rows (Scroll)'}
+                        {viewMode === 'scroll' ? t('view.showWrap') : t('view.showScroll')}
                     </button>
                 </div>
 
@@ -218,10 +220,10 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
                     }}>
                         {/* Leadership Filter */}
                         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                            <span style={{ fontSize: '0.9rem', color: '#aaa', marginRight: '0.5rem', minWidth: '80px' }}>Leadership:</span>
+                            <span style={{ fontSize: '0.9rem', color: '#aaa', marginRight: '0.5rem', minWidth: '80px' }}>{t('filters.leadership')}:</span>
                             <input
                                 type="number"
-                                placeholder="Min"
+                                placeholder={t('filters.min')}
                                 value={minLeadership}
                                 onChange={(e) => setMinLeadership(e.target.value)}
                                 style={{
@@ -236,7 +238,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
                             <span style={{ color: '#aaa' }}>-</span>
                             <input
                                 type="number"
-                                placeholder="Max"
+                                placeholder={t('filters.max')}
                                 value={maxLeadership}
                                 onChange={(e) => setMaxLeadership(e.target.value)}
                                 style={{
@@ -252,7 +254,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
 
                         {/* Era Filter */}
                         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                            <span style={{ fontSize: '0.9rem', color: '#aaa', marginRight: '0.5rem', minWidth: '80px' }}>Era:</span>
+                            <span style={{ fontSize: '0.9rem', color: '#aaa', marginRight: '0.5rem', minWidth: '80px' }}>{t('filters.era')}:</span>
                             {uniqueEras.map(era => (
                                 <label key={era} style={{ display: 'flex', alignItems: 'center', gap: '4px', cursor: 'pointer', backgroundColor: 'rgba(255,255,255,0.05)', padding: '4px 8px', borderRadius: '4px' }}>
                                     <input
@@ -267,7 +269,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
 
                         {/* Type Filter */}
                         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                            <span style={{ fontSize: '0.9rem', color: '#aaa', marginRight: '0.5rem', minWidth: '80px' }}>Type:</span>
+                            <span style={{ fontSize: '0.9rem', color: '#aaa', marginRight: '0.5rem', minWidth: '80px' }}>{t('filters.type')}:</span>
                             {uniqueTypes.map(type => (
                                 <label key={type} style={{ display: 'flex', alignItems: 'center', gap: '4px', cursor: 'pointer', backgroundColor: 'rgba(255,255,255,0.05)', padding: '4px 8px', borderRadius: '4px' }}>
                                     <input
@@ -282,7 +284,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
 
                         {/* Tier Filters */}
                         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                            <span style={{ fontSize: '0.9rem', color: '#aaa', marginRight: '0.5rem', minWidth: '80px' }}>Tiers:</span>
+                            <span style={{ fontSize: '0.9rem', color: '#aaa', marginRight: '0.5rem', minWidth: '80px' }}>{t('filters.tiers')}:</span>
 
                             {/* ALL option */}
                             <label style={{
@@ -300,7 +302,7 @@ export const TierList: React.FC<TierListProps> = ({ data, units }) => {
                                     checked={showAllTiers}
                                     onChange={toggleAllTiers}
                                 />
-                                <span style={{ fontSize: '0.9rem', fontWeight: showAllTiers ? 'bold' : 'normal' }}>ALL</span>
+                                <span style={{ fontSize: '0.9rem', fontWeight: showAllTiers ? 'bold' : 'normal' }}>{t('filters.all')}</span>
                             </label>
 
                             {allTierIds.map(tierId => (

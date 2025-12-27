@@ -1,0 +1,211 @@
+.guide-viewer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    line-height: 1.7;
+    color: var(--color-text);
+}
+
+.guide-viewer h1 {
+    font-size: 2.5rem;
+    color: var(--color-gold);
+    border-bottom: 2px solid var(--color-gold);
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-display);
+}
+
+.guide-viewer h2 {
+    font-size: 2rem;
+    color: var(--color-gold);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.guide-viewer h3 {
+    font-size: 1.5rem;
+    color: #e8d4a3;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.guide-viewer h4 {
+    font-size: 1.2rem;
+    color: #d4af77;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.guide-viewer p {
+    margin-bottom: 1rem;
+    color: var(--color-text-secondary);
+}
+
+.guide-viewer ul,
+.guide-viewer ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.guide-viewer li {
+    margin-bottom: 0.5rem;
+    color: var(--color-text-secondary);
+}
+
+.guide-viewer strong {
+    color: var(--color-gold);
+    font-weight: 600;
+}
+
+.guide-viewer em {
+    color: #e8d4a3;
+    font-style: italic;
+}
+
+.guide-viewer code {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+    color: #ffd700;
+}
+
+.guide-viewer pre {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.guide-viewer pre code {
+    background: none;
+    padding: 0;
+    color: #fff;
+}
+
+.guide-viewer img,
+.guide-viewer video {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: block;
+}
+
+.guide-viewer blockquote {
+    border-left: 4px solid var(--color-gold);
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #e8d4a3;
+    background: rgba(212, 175, 55, 0.05);
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.guide-viewer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.guide-viewer th {
+    background: rgba(212, 175, 55, 0.2);
+    color: var(--color-gold);
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.guide-viewer td {
+    padding: 0.75rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--color-text-secondary);
+}
+
+.guide-viewer tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.guide-viewer a {
+    color: var(--color-gold);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.guide-viewer a:hover {
+    border-bottom-color: var(--color-gold);
+}
+
+.guide-viewer hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 2rem 0;
+}
+
+/* Loading state */
+.guide-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    color: var(--color-text-secondary);
+}
+
+.spinner {
+    width: 48px;
+    height: 48px;
+    border: 4px solid rgba(212, 175, 55, 0.2);
+    border-top-color: var(--color-gold);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Error state */
+.guide-error {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: var(--color-text-secondary);
+}
+
+.guide-error h2 {
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .guide-viewer {
+        padding: 1rem;
+    }
+
+    .guide-viewer h1 {
+        font-size: 2rem;
+    }
+
+    .guide-viewer h2 {
+        font-size: 1.5rem;
+    }
+
+    .guide-viewer table {
+        font-size: 0.9rem;
+    }
+}
