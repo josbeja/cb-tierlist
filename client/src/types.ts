@@ -13,7 +13,16 @@ export interface TierListResponse {
 }
 
 export interface UnitData {
+    id: number;
+    unit_name: string;
     imageUrl: string;
+    leadership: number;
+    era: number;
+    era_desc: string;
+    tier: number;
+    tier_desc: string;
+    type: string;
+    season: string;
 }
 
 export type UnitMap = Record<string, UnitData>;

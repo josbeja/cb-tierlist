@@ -1,428 +1,1706 @@
-{
-  "Falconetti Gunners": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790175/cb-tierlist/falconetti-gunners.png"
-  },
-  "Lionroar Crew": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790179/cb-tierlist/lionroar-crew.png"
-  },
-  "Shenji Grenadiers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790184/cb-tierlist/shenji-grenadiers.png"
-  },
-  "Siphonarioi": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790188/cb-tierlist/siphonarioi.png"
-  },
-  "Alchemists": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790192/cb-tierlist/alchemists.png"
-  },
-  "Bagpipers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790196/cb-tierlist/bagpipers.png"
-  },
-  "Helot Auxilary": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790200/cb-tierlist/helot-auxilary.png"
-  },
-  "Schutzdieners": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790204/cb-tierlist/schutzdieners.png"
-  },
-  "Zykalian Militia": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790209/cb-tierlist/zykalian-militia.png"
-  },
-  "Martellatori": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790213/cb-tierlist/martellatori.png"
-  },
-  "Serfs": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790217/cb-tierlist/serfs.png"
-  },
-  "Hwarang": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790221/cb-tierlist/hwarang.png"
-  },
-  "Lancelot Knights": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790225/cb-tierlist/lancelot-knights.png"
-  },
-  "Modao Battalion": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790229/cb-tierlist/modao-battalion.png"
-  },
-  "Order of the dragon": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790233/cb-tierlist/order-of-the-dragon.png"
-  },
-  "Orochi Samurai": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790237/cb-tierlist/orochi-samurai.png"
-  },
-  "Shieldmaidens": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790241/cb-tierlist/shieldmaidens.png"
-  },
-  "Silahdars": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790246/cb-tierlist/silahdars.png"
-  },
-  "Spartan Chosen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790252/cb-tierlist/spartan-chosen.png"
-  },
-  "Sunward Phalanx": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790256/cb-tierlist/sunward-phalanx.png"
-  },
-  "Winged Hussars": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790260/cb-tierlist/winged-hussars.png"
-  },
-  "Yanyuedao Cavalry": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790265/cb-tierlist/yanyuedao-cavalry.png"
-  },
-  "Imperial Pike Guards": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790269/cb-tierlist/imperial-pike-guards.png"
-  },
-  "Spear Sergeants": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790273/cb-tierlist/spear-sergeants.png"
-  },
-  "Symmachean Paladins": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790279/cb-tierlist/symmachean-paladins.png"
-  },
-  "Symmachean Stalwarts": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790283/cb-tierlist/symmachean-stalwarts.png"
-  },
-  "Zealot": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790287/cb-tierlist/zealot.png"
-  },
-  "Demesne Arbalists": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790291/cb-tierlist/demesne-arbalists.png"
-  },
-  "Incendiary Archers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790295/cb-tierlist/incendiary-archers.png"
-  },
-  "Rattan Vipers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790299/cb-tierlist/rattan-vipers.png"
-  },
-  "Coutiliers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790304/cb-tierlist/coutiliers.png"
-  },
-  "Rattan Pikemen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790309/cb-tierlist/rattan-pikemen.png"
-  },
-  "Empire Chariot": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790314/cb-tierlist/empire-chariot.png"
-  },
-  "Iron Reapers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790319/cb-tierlist/iron-reapers.png"
-  },
-  "Monastic Knights": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790322/cb-tierlist/monastic-knights.png"
-  },
-  "Zweihanders": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790327/cb-tierlist/zweihanders.png"
-  },
-  "Claymores": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790331/cb-tierlist/claymores.png"
-  },
-  "Companion Cavalry": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790336/cb-tierlist/companion-cavalry.png"
-  },
-  "Dagger Axe Lancers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790343/cb-tierlist/dagger-axe-lancers.png"
-  },
-  "Halberd Elite": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790348/cb-tierlist/halberd-elite.png"
-  },
-  "Halberdier Sergeants": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790351/cb-tierlist/halberdier-sergeants.png"
-  },
-  "Imperial Archers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790356/cb-tierlist/imperial-archers.png"
-  },
-  "Imperial Arquebusiers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790362/cb-tierlist/imperial-arquebusiers.png"
-  },
-  "Imperial Spear Guards": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790370/cb-tierlist/imperial-spear-guards.png"
-  },
-  "Men-at-Arms": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790374/cb-tierlist/men-at-arms.png"
-  },
-  "Myrmillones": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790379/cb-tierlist/myrmillones.png"
-  },
-  "Onna-Musha": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790385/cb-tierlist/onna-musha.png"
-  },
-  "Palace Guards": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790394/cb-tierlist/palace-guards.png"
-  },
-  "Swinefeathers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790399/cb-tierlist/swinefeathers.png"
-  },
-  "Vassal Longbowmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790403/cb-tierlist/vassal-longbowmen.png"
-  },
-  "Wuwei Mansion Guard": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790407/cb-tierlist/wuwei-mansion-guard.png"
-  },
-  "Yeomen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790411/cb-tierlist/yeomen.png"
-  },
-  "Condottieri Guards": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790415/cb-tierlist/condottieri-guards.png"
-  },
-  "Doppelsoldner": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790420/cb-tierlist/doppelsoldner.png"
-  },
-  "Halberdiers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790423/cb-tierlist/halberdiers.png"
-  },
-  "Ironcap Spearmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790428/cb-tierlist/ironcap-spearmen.png"
-  },
-  "Outriders": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790432/cb-tierlist/outriders.png"
-  },
-  "Prefecture Guards": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790436/cb-tierlist/prefecture-guards.png"
-  },
-  "Rattan Marksmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790440/cb-tierlist/rattan-marksmen.png"
-  },
-  "Reitar Pistoleers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790444/cb-tierlist/reitar-pistoleers.png"
-  },
-  "Wuxing Pikemen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790448/cb-tierlist/wuxing-pikemen.png"
-  },
-  "Rattan Roundshields": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790452/cb-tierlist/rattan-roundshields.png"
-  },
-  "Cataphract Lancers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790456/cb-tierlist/cataphract-lancers.png"
-  },
-  "Hashashins": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790460/cb-tierlist/hashashins.png"
-  },
-  "Liaos Rangers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790465/cb-tierlist/liaos-rangers.png"
-  },
-  "Tercio Arquebusiers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790469/cb-tierlist/tercio-arquebusiers.png"
-  },
-  "Varangian Guards": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790474/cb-tierlist/varangian-guards.png"
-  },
-  "Xuanjia Heavy Cavalry": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790478/cb-tierlist/xuanjia-heavy-cavalry.png"
-  },
-  "Camel Lancers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790482/cb-tierlist/camel-lancers.png"
-  },
-  "Crescent Monks": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790486/cb-tierlist/crescent-monks.png"
-  },
-  "Fortebraccio Pikemen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790491/cb-tierlist/fortebraccio-pikemen.png"
-  },
-  "Imperial Javelineers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790495/cb-tierlist/imperial-javelineers.png"
-  },
-  "Khevtuul Cavalry": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790499/cb-tierlist/khevtuul-cavalry.png"
-  },
-  "Kriegsbruders": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790503/cb-tierlist/kriegsbruders.png"
-  },
-  "Kriegsrat Fusiliers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790507/cb-tierlist/kriegsrat-fusiliers.png"
-  },
-  "Tiger Fists": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790512/cb-tierlist/tiger-fists.png"
-  },
-  "Cudgel Monks": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790516/cb-tierlist/cudgel-monks.png"
-  },
-  "Feathered Crossbowmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790521/cb-tierlist/feathered-crossbowmen.png"
-  },
-  "Janissaries": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790525/cb-tierlist/janissaries.png"
-  },
-  "Mace Sergeants": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790529/cb-tierlist/mace-sergeants.png"
-  },
-  "Prefecture Pikemen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790533/cb-tierlist/prefecture-pikemen.png"
-  },
-  "Silla Guards": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790538/cb-tierlist/silla-guards.png"
-  },
-  "Sons of Fenrir": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790541/cb-tierlist/sons-of-fenrir.png"
-  },
-  "Vanguard Archers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790545/cb-tierlist/vanguard-archers.png"
-  },
-  "Demesne Spearmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790550/cb-tierlist/demesne-spearmen.png"
-  },
-  "Ironcap Scout Cavalry": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790555/cb-tierlist/ironcap-scout-cavalry.png"
-  },
-  "Ironcap Swordsmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790560/cb-tierlist/ironcap-swordsmen.png"
-  },
-  "Pike Militia": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790564/cb-tierlist/pike-militia.png"
-  },
-  "Houndsmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790568/cb-tierlist/houndsmen.png"
-  },
-  "Kheshigs": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790572/cb-tierlist/kheshigs.png"
-  },
-  "Pavise Crossbowmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790576/cb-tierlist/pavise-crossbowmen.png"
-  },
-  "Retiarii": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790581/cb-tierlist/retiarii.png"
-  },
-  "Armiger Lancers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790584/cb-tierlist/armiger-lancers.png"
-  },
-  "Axe Raiders": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790588/cb-tierlist/axe-raiders.png"
-  },
-  "Azaps": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790592/cb-tierlist/azaps.png"
-  },
-  "Banner Guards": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790596/cb-tierlist/banner-guards.png"
-  },
-  "Berserkers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790600/cb-tierlist/berserkers.png"
-  },
-  "Galahad Spearmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790605/cb-tierlist/galahad-spearmen.png"
-  },
-  "Greyhair Garrison": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790609/cb-tierlist/greyhair-garrison.png"
-  },
-  "Huskarls": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790613/cb-tierlist/huskarls.png"
-  },
-  "Javelin Sergeants": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790617/cb-tierlist/javelin-sergeants.png"
-  },
-  "Laconic Javelins": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790621/cb-tierlist/laconic-javelins.png"
-  },
-  "Matchlock Ashigsaru": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790626/cb-tierlist/matchlock-ashigsaru.png"
-  },
-  "Prefecture Heavy Cavalry": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790632/cb-tierlist/prefecture-heavy-cavalry.png"
-  },
-  "Sipahis": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790636/cb-tierlist/sipahis.png"
-  },
-  "Tseregs": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790641/cb-tierlist/tseregs.png"
-  },
-  "Dimachaeri": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790649/cb-tierlist/dimachaeri.png"
-  },
-  "Jangjus": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790654/cb-tierlist/jangjus.png"
-  },
-  "Landsknechts": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790658/cb-tierlist/landsknechts.png"
-  },
-  "Qin's Footbow": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790662/cb-tierlist/qin-s-footbow.png"
-  },
-  "Ronin": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790666/cb-tierlist/ronin.png"
-  },
-  "Black Dragon Javelineers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790670/cb-tierlist/black-dragon-javelineers.png"
-  },
-  "Demesne Pikemen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790674/cb-tierlist/demesne-pikemen.png"
-  },
-  "Chevaliers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790678/cb-tierlist/chevaliers.png"
-  },
-  "Fire Lancers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790682/cb-tierlist/fire-lancers.png"
-  },
-  "Rattan Rangers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790686/cb-tierlist/rattan-rangers.png"
-  },
-  "Bedivere Rangers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790691/cb-tierlist/bedivere-rangers.png"
-  },
-  "Black Dragon Pikemen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790696/cb-tierlist/black-dragon-pikemen.png"
-  },
-  "Black Dragon Spearmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790701/cb-tierlist/black-dragon-spearmen.png"
-  },
-  "Demesne Arquebusiers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790704/cb-tierlist/demesne-arquebusiers.png"
-  },
-  "Khorchins": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790709/cb-tierlist/khorchins.png"
-  },
-  "Namkhan Archers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790713/cb-tierlist/namkhan-archers.png"
-  },
-  "Prefecture Archers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790718/cb-tierlist/prefecture-archers.png"
-  },
-  "Psiloi Slingers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790722/cb-tierlist/psiloi-slingers.png"
-  },
-  "Selemchid Cavalry": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790727/cb-tierlist/selemchid-cavalry.png"
-  },
-  "Squires": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790732/cb-tierlist/squires.png"
-  },
-  "Black Dragon Archers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790736/cb-tierlist/black-dragon-archers.png"
-  },
-  "Demesne Archers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790741/cb-tierlist/demesne-archers.png"
-  },
-  "Demesne Crossbowmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790746/cb-tierlist/demesne-crossbowmen.png"
-  },
-  "Demesne Javelineers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790751/cb-tierlist/demesne-javelineers.png"
-  },
-  "Ironcap Archers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790755/cb-tierlist/ironcap-archers.png"
-  },
-  "Ironcap Arquebusiers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790760/cb-tierlist/ironcap-arquebusiers.png"
-  },
-  "Ironcap Bowriders": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790764/cb-tierlist/ironcap-bowriders.png"
-  },
-  "Javelin Militia": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790768/cb-tierlist/javelin-militia.png"
-  },
-  "Sea Stag Deathdealers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790772/cb-tierlist/sea-stag-deathdealers.png"
-  },
-  "Tenant Farmers": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790776/cb-tierlist/tenant-farmers.png"
-  },
-  "Village Watchmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790781/cb-tierlist/village-watchmen.png"
-  },
-  "Woodcutters": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790786/cb-tierlist/woodcutters.png"
-  },
-  "Archer Militia": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790790/cb-tierlist/archer-militia.png"
-  },
-  "Levy Bowmen": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790795/cb-tierlist/levy-bowmen.png"
-  },
-  "Spear Militia": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790800/cb-tierlist/spear-militia.png"
-  },
-  "Sword Militia": {
-    "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790804/cb-tierlist/sword-militia.png"
-  }
-}
+[
+ {
+   "id": 1,
+   "unit_name": "Alchemists",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790192/cb-tierlist/alchemists.png",
+   "leadership": 60,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Melee Infantry",
+   "season": "Paragons"
+ },
+ {
+   "id": 2,
+   "unit_name": "Archer Militia",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790790/cb-tierlist/archer-militia.png",
+   "leadership": 45,
+   "era": 6,
+   "era_desc": "Feudal Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 3,
+   "unit_name": "Armiger Lancers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790584/cb-tierlist/armiger-lancers.png",
+   "leadership": 240,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Cavalry",
+   "season": "Scourge of Winter"
+ },
+ {
+   "id": 4,
+   "unit_name": "Axe Raiders",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790588/cb-tierlist/axe-raiders.png",
+   "leadership": 240,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Tyranny"
+ },
+ {
+   "id": 5,
+   "unit_name": "Azaps",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790592/cb-tierlist/azaps.png",
+   "leadership": 240,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Blood of the Empire"
+ },
+ {
+   "id": 6,
+   "unit_name": "Bagpipers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790196/cb-tierlist/bagpipers.png",
+   "leadership": 90,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Melee Infantry",
+   "season": "Highlanders"
+ },
+ {
+   "id": 7,
+   "unit_name": "Banner Guards",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790596/cb-tierlist/banner-guards.png",
+   "leadership": 225,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Paragons"
+ },
+ {
+   "id": 8,
+   "unit_name": "Bedivere Rangers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790691/cb-tierlist/bedivere-rangers.png",
+   "leadership": 185,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Cavalry",
+   "season": "Avalon"
+ },
+ {
+   "id": 9,
+   "unit_name": "Berserkers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790600/cb-tierlist/berserkers.png",
+   "leadership": 245,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Wolves of Ragnarok"
+ },
+ {
+   "id": 10,
+   "unit_name": "Black Dragon Archers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790736/cb-tierlist/black-dragon-archers.png",
+   "leadership": 60,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Mercenary"
+ },
+ {
+   "id": 11,
+   "unit_name": "Black Dragon Javelineers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790670/cb-tierlist/black-dragon-javelineers.png",
+   "leadership": 80,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Mercenary"
+ },
+ {
+   "id": 12,
+   "unit_name": "Black Dragon Pikemen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790696/cb-tierlist/black-dragon-pikemen.png",
+   "leadership": 80,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Mercenary"
+ },
+ {
+   "id": 13,
+   "unit_name": "Black Dragon Spearmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790701/cb-tierlist/black-dragon-spearmen.png",
+   "leadership": 80,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Mercenary"
+ },
+ {
+   "id": 14,
+   "unit_name": "Camel Lancers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790482/cb-tierlist/camel-lancers.png",
+   "leadership": 225,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Cavalry",
+   "season": "Scorpio"
+ },
+ {
+   "id": 15,
+   "unit_name": "Cataphract Lancers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790456/cb-tierlist/cataphract-lancers.png",
+   "leadership": 310,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 16,
+   "unit_name": "Chevaliers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790678/cb-tierlist/chevaliers.png",
+   "leadership": 340,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Cavalry",
+   "season": "Paragons"
+ },
+ {
+   "id": 17,
+   "unit_name": "Claymores",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790331/cb-tierlist/claymores.png",
+   "leadership": 235,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Highlanders"
+ },
+ {
+   "id": 18,
+   "unit_name": "Companion Cavalry",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790336/cb-tierlist/companion-cavalry.png",
+   "leadership": 215,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Cavalry",
+   "season": "Alexander"
+ },
+ {
+   "id": 19,
+   "unit_name": "Condottieri Guards",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790415/cb-tierlist/condottieri-guards.png",
+   "leadership": 160,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Soldiers of Fortune"
+ },
+ {
+   "id": 20,
+   "unit_name": "Coutiliers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790304/cb-tierlist/coutiliers.png",
+   "leadership": 115,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 21,
+   "unit_name": "Crescent Monks",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790486/cb-tierlist/crescent-monks.png",
+   "leadership": 250,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Eternal"
+ },
+ {
+   "id": 22,
+   "unit_name": "Cudgel Monks",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790516/cb-tierlist/cudgel-monks.png",
+   "leadership": 145,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Dynasty"
+ },
+ {
+   "id": 23,
+   "unit_name": "Dagger Axe Lancers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790343/cb-tierlist/dagger-axe-lancers.png",
+   "leadership": 240,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 24,
+   "unit_name": "Demesne Arbalists",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790291/cb-tierlist/demesne-arbalists.png",
+   "leadership": 160,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 25,
+   "unit_name": "Demesne Archers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790741/cb-tierlist/demesne-archers.png",
+   "leadership": 90,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 26,
+   "unit_name": "Demesne Arquebusiers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790704/cb-tierlist/demesne-arquebusiers.png",
+   "leadership": 200,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 27,
+   "unit_name": "Demesne Crossbowmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790746/cb-tierlist/demesne-crossbowmen.png",
+   "leadership": 110,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 28,
+   "unit_name": "Demesne Javelineers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790751/cb-tierlist/demesne-javelineers.png",
+   "leadership": 105,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 29,
+   "unit_name": "Demesne Pikemen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790674/cb-tierlist/demesne-pikemen.png",
+   "leadership": 55,
+   "era": 6,
+   "era_desc": "Feudal Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 30,
+   "unit_name": "Demesne Spearmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790550/cb-tierlist/demesne-spearmen.png",
+   "leadership": 105,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 31,
+   "unit_name": "Dimachaeri",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790649/cb-tierlist/dimachaeri.png",
+   "leadership": 165,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Colosseum"
+ },
+ {
+   "id": 32,
+   "unit_name": "Doppelsoldner",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790420/cb-tierlist/doppelsoldner.png",
+   "leadership": 155,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Sacrum Romanum"
+ },
+ {
+   "id": 33,
+   "unit_name": "Empire Chariot",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790314/cb-tierlist/empire-chariot.png",
+   "leadership": 330,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Cavalry",
+   "season": "Dynasty Awakening"
+ },
+ {
+   "id": 34,
+   "unit_name": "Falconetti Gunners",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790175/cb-tierlist/falconetti-gunners.png",
+   "leadership": 300,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Ranged Infantry",
+   "season": "Soldiers of Fortune"
+ },
+ {
+   "id": 35,
+   "unit_name": "Feathered Crossbowmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790521/cb-tierlist/feathered-crossbowmen.png",
+   "leadership": 150,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Ranged Infantry",
+   "season": "Dragonrise"
+ },
+ {
+   "id": 36,
+   "unit_name": "Fire Lancers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790682/cb-tierlist/fire-lancers.png",
+   "leadership": 305,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 37,
+   "unit_name": "Fortebraccio Pikemen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790491/cb-tierlist/fortebraccio-pikemen.png",
+   "leadership": 235,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Soldiers of Fortune"
+ },
+ {
+   "id": 38,
+   "unit_name": "Galahad Spearmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790605/cb-tierlist/galahad-spearmen.png",
+   "leadership": 215,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Avalon"
+ },
+ {
+   "id": 39,
+   "unit_name": "Greyhair Garrison",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790609/cb-tierlist/greyhair-garrison.png",
+   "leadership": 200,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Dynasty"
+ },
+ {
+   "id": 40,
+   "unit_name": "Halberd Elite",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790348/cb-tierlist/halberd-elite.png",
+   "leadership": 220,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Dynasty Awakening"
+ },
+ {
+   "id": 41,
+   "unit_name": "Halberdier Sergeants",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790351/cb-tierlist/halberdier-sergeants.png",
+   "leadership": 230,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 42,
+   "unit_name": "Halberdiers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790423/cb-tierlist/halberdiers.png",
+   "leadership": 165,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 43,
+   "unit_name": "Hashashins",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790460/cb-tierlist/hashashins.png",
+   "leadership": 295,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Scorpio"
+ },
+ {
+   "id": 44,
+   "unit_name": "Helot Auxilary",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790200/cb-tierlist/helot-auxilary.png",
+   "leadership": 100,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Melee Infantry",
+   "season": "Sparta"
+ },
+ {
+   "id": 45,
+   "unit_name": "Houndsmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790568/cb-tierlist/houndsmen.png",
+   "leadership": 310,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Ranged Infantry",
+   "season": "Highlanders"
+ },
+ {
+   "id": 46,
+   "unit_name": "Huskarls",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790613/cb-tierlist/huskarls.png",
+   "leadership": 230,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Helheim"
+ },
+ {
+   "id": 47,
+   "unit_name": "Hwarang",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790221/cb-tierlist/hwarang.png",
+   "leadership": 270,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Ranged Infantry",
+   "season": "Silla"
+ },
+ {
+   "id": 48,
+   "unit_name": "Imperial Archers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790356/cb-tierlist/imperial-archers.png",
+   "leadership": 255,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 49,
+   "unit_name": "Imperial Arquebusiers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790362/cb-tierlist/imperial-arquebusiers.png",
+   "leadership": 255,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 50,
+   "unit_name": "Imperial Javelineers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790495/cb-tierlist/imperial-javelineers.png",
+   "leadership": 240,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 51,
+   "unit_name": "Imperial Pike Guards",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790269/cb-tierlist/imperial-pike-guards.png",
+   "leadership": 240,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 52,
+   "unit_name": "Imperial Spear Guards",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790370/cb-tierlist/imperial-spear-guards.png",
+   "leadership": 220,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 53,
+   "unit_name": "Incendiary Archers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790295/cb-tierlist/incendiary-archers.png",
+   "leadership": 180,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 54,
+   "unit_name": "Iron Reapers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790319/cb-tierlist/iron-reapers.png",
+   "leadership": 300,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 55,
+   "unit_name": "Ironcap Archers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790755/cb-tierlist/ironcap-archers.png",
+   "leadership": 110,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 56,
+   "unit_name": "Ironcap Arquebusiers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790760/cb-tierlist/ironcap-arquebusiers.png",
+   "leadership": 120,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 57,
+   "unit_name": "Ironcap Bowriders",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790764/cb-tierlist/ironcap-bowriders.png",
+   "leadership": 90,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 58,
+   "unit_name": "Ironcap Scout Cavalry",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790555/cb-tierlist/ironcap-scout-cavalry.png",
+   "leadership": 120,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 59,
+   "unit_name": "Ironcap Spearmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790428/cb-tierlist/ironcap-spearmen.png",
+   "leadership": 130,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 60,
+   "unit_name": "Ironcap Swordsmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790560/cb-tierlist/ironcap-swordsmen.png",
+   "leadership": 100,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 61,
+   "unit_name": "Jangjus",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790654/cb-tierlist/jangjus.png",
+   "leadership": 170,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Ranged Infantry",
+   "season": "Scorpio"
+ },
+ {
+   "id": 62,
+   "unit_name": "Janissaries",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790525/cb-tierlist/janissaries.png",
+   "leadership": 180,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Ranged Infantry",
+   "season": "Blood of the Empire"
+ },
+ {
+   "id": 63,
+   "unit_name": "Javelin Militia",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790768/cb-tierlist/javelin-militia.png",
+   "leadership": 105,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 64,
+   "unit_name": "Javelin Sergeants",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790617/cb-tierlist/javelin-sergeants.png",
+   "leadership": 230,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 65,
+   "unit_name": "Kheshigs",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790572/cb-tierlist/kheshigs.png",
+   "leadership": 310,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Cavalry",
+   "season": "Wrath of the Nomads"
+ },
+ {
+   "id": 66,
+   "unit_name": "Khevtuul Cavalry",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790499/cb-tierlist/khevtuul-cavalry.png",
+   "leadership": 245,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Cavalry",
+   "season": "Wrath of the Nomads"
+ },
+ {
+   "id": 67,
+   "unit_name": "Khorchins",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790709/cb-tierlist/khorchins.png",
+   "leadership": 140,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Cavalry",
+   "season": "Wrath of the Nomads"
+ },
+ {
+   "id": 68,
+   "unit_name": "Kriegsbruders",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790503/cb-tierlist/kriegsbruders.png",
+   "leadership": 220,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Cavalry",
+   "season": "Knightfall"
+ },
+ {
+   "id": 69,
+   "unit_name": "Kriegsrat Fusiliers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790507/cb-tierlist/kriegsrat-fusiliers.png",
+   "leadership": 255,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 70,
+   "unit_name": "Laconic Javelins",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790621/cb-tierlist/laconic-javelins.png",
+   "leadership": 210,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Sparta"
+ },
+ {
+   "id": 71,
+   "unit_name": "Lancelot Knights",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790225/cb-tierlist/lancelot-knights.png",
+   "leadership": 285,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Avalon"
+ },
+ {
+   "id": 72,
+   "unit_name": "Landsknechts",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790658/cb-tierlist/landsknechts.png",
+   "leadership": 165,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Scourge of Winter"
+ },
+ {
+   "id": 73,
+   "unit_name": "Levy Bowmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790795/cb-tierlist/levy-bowmen.png",
+   "leadership": 50,
+   "era": 6,
+   "era_desc": "Feudal Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 74,
+   "unit_name": "Liaos Rangers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790465/cb-tierlist/liaos-rangers.png",
+   "leadership": 315,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Cavalry",
+   "season": "Scourge of Winter"
+ },
+ {
+   "id": 75,
+   "unit_name": "Lionroar Crew",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790179/cb-tierlist/lionroar-crew.png",
+   "leadership": 310,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Ranged Infantry",
+   "season": "Lionfire"
+ },
+ {
+   "id": 76,
+   "unit_name": "Mace Sergeants",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790529/cb-tierlist/mace-sergeants.png",
+   "leadership": 150,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 77,
+   "unit_name": "Martellatori",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790213/cb-tierlist/martellatori.png",
+   "leadership": 30,
+   "era": 5,
+   "era_desc": "Rustic Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Melee Infantry",
+   "season": "Mercenary"
+ },
+ {
+   "id": 78,
+   "unit_name": "Matchlock Ashigsaru",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790626/cb-tierlist/matchlock-ashigsaru.png",
+   "leadership": 205,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 79,
+   "unit_name": "Men-at-Arms",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790374/cb-tierlist/men-at-arms.png",
+   "leadership": 220,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 80,
+   "unit_name": "Modao Battalion",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790229/cb-tierlist/modao-battalion.png",
+   "leadership": 315,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Dynasty"
+ },
+ {
+   "id": 81,
+   "unit_name": "Monastic Knights",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790322/cb-tierlist/monastic-knights.png",
+   "leadership": 305,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 82,
+   "unit_name": "Myrmillones",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790379/cb-tierlist/myrmillones.png",
+   "leadership": 245,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Colosseum"
+ },
+ {
+   "id": 83,
+   "unit_name": "Namkhan Archers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790713/cb-tierlist/namkhan-archers.png",
+   "leadership": 180,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Wrath of the Nomads"
+ },
+ {
+   "id": 84,
+   "unit_name": "Onna-Musha",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790385/cb-tierlist/onna-musha.png",
+   "leadership": 215,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Sengoku"
+ },
+ {
+   "id": 85,
+   "unit_name": "Order of the dragon",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790233/cb-tierlist/order-of-the-dragon.png",
+   "leadership": 300,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Cavalry",
+   "season": "Sacrum Romanum"
+ },
+ {
+   "id": 86,
+   "unit_name": "Orochi Samurai",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790237/cb-tierlist/orochi-samurai.png",
+   "leadership": 295,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Sengoku"
+ },
+ {
+   "id": 87,
+   "unit_name": "Outriders",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790432/cb-tierlist/outriders.png",
+   "leadership": 180,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Cavalry",
+   "season": "Tyranny"
+ },
+ {
+   "id": 88,
+   "unit_name": "Palace Guards",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790394/cb-tierlist/palace-guards.png",
+   "leadership": 235,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 89,
+   "unit_name": "Pavise Crossbowmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790576/cb-tierlist/pavise-crossbowmen.png",
+   "leadership": 325,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Ranged Infantry",
+   "season": "Soldiers of Fortune"
+ },
+ {
+   "id": 90,
+   "unit_name": "Pike Militia",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790564/cb-tierlist/pike-militia.png",
+   "leadership": 110,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 91,
+   "unit_name": "Prefecture Archers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790718/cb-tierlist/prefecture-archers.png",
+   "leadership": 180,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 92,
+   "unit_name": "Prefecture Guards",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790436/cb-tierlist/prefecture-guards.png",
+   "leadership": 170,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 93,
+   "unit_name": "Prefecture Heavy Cavalry",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790632/cb-tierlist/prefecture-heavy-cavalry.png",
+   "leadership": 240,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 94,
+   "unit_name": "Prefecture Pikemen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790533/cb-tierlist/prefecture-pikemen.png",
+   "leadership": 165,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 95,
+   "unit_name": "Psiloi Slingers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790722/cb-tierlist/psiloi-slingers.png",
+   "leadership": 90,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Alexander"
+ },
+ {
+   "id": 96,
+   "unit_name": "Qin's Footbow",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790662/cb-tierlist/qin-s-footbow.png",
+   "leadership": 170,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Ranged Infantry",
+   "season": "Dynasty Awakening"
+ },
+ {
+   "id": 97,
+   "unit_name": "Rattan Marksmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790440/cb-tierlist/rattan-marksmen.png",
+   "leadership": 175,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 98,
+   "unit_name": "Rattan Pikemen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790309/cb-tierlist/rattan-pikemen.png",
+   "leadership": 95,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 99,
+   "unit_name": "Rattan Rangers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790686/cb-tierlist/rattan-rangers.png",
+   "leadership": 305,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 100,
+   "unit_name": "Rattan Roundshields",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790452/cb-tierlist/rattan-roundshields.png",
+   "leadership": 115,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 101,
+   "unit_name": "Rattan Vipers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790299/cb-tierlist/rattan-vipers.png",
+   "leadership": 155,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 102,
+   "unit_name": "Reitar Pistoleers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790444/cb-tierlist/reitar-pistoleers.png",
+   "leadership": 180,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Cavalry",
+   "season": "Lionfire"
+ },
+ {
+   "id": 103,
+   "unit_name": "Retiarii",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790581/cb-tierlist/retiarii.png",
+   "leadership": 320,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Colosseum"
+ },
+ {
+   "id": 104,
+   "unit_name": "Ronin",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790666/cb-tierlist/ronin.png",
+   "leadership": 145,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Sengoku"
+ },
+ {
+   "id": 105,
+   "unit_name": "Schutzdieners",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790204/cb-tierlist/schutzdieners.png",
+   "leadership": 155,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Ranged Infantry",
+   "season": "Knightfall"
+ },
+ {
+   "id": 106,
+   "unit_name": "Sea Stag Deathdealers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790772/cb-tierlist/sea-stag-deathdealers.png",
+   "leadership": 80,
+   "era": 4,
+   "era_desc": "Chivalric Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Ranged Infantry",
+   "season": "Mercenary"
+ },
+ {
+   "id": 107,
+   "unit_name": "Selemchid Cavalry",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790727/cb-tierlist/selemchid-cavalry.png",
+   "leadership": 150,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Cavalry",
+   "season": "Wrath of the Nomads"
+ },
+ {
+   "id": 108,
+   "unit_name": "Serfs",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790217/cb-tierlist/serfs.png",
+   "leadership": 40,
+   "era": 5,
+   "era_desc": "Rustic Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 109,
+   "unit_name": "Shenji Grenadiers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790184/cb-tierlist/shenji-grenadiers.png",
+   "leadership": 315,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Ranged Infantry",
+   "season": "Tyranny"
+ },
+ {
+   "id": 110,
+   "unit_name": "Shieldmaidens",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790241/cb-tierlist/shieldmaidens.png",
+   "leadership": 280,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Wolves of Ragnarok"
+ },
+ {
+   "id": 111,
+   "unit_name": "Silahdars",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790246/cb-tierlist/silahdars.png",
+   "leadership": 320,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Blood of the Empire"
+ },
+ {
+   "id": 112,
+   "unit_name": "Silla Guards",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790538/cb-tierlist/silla-guards.png",
+   "leadership": 140,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Silla"
+ },
+ {
+   "id": 113,
+   "unit_name": "Sipahis",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790636/cb-tierlist/sipahis.png",
+   "leadership": 245,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Cavalry",
+   "season": "Blood of the Empire"
+ },
+ {
+   "id": 114,
+   "unit_name": "Siphonarioi",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790188/cb-tierlist/siphonarioi.png",
+   "leadership": 300,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Ranged Infantry",
+   "season": "Legacy of Fire"
+ },
+ {
+   "id": 115,
+   "unit_name": "Sons of Fenrir",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790541/cb-tierlist/sons-of-fenrir.png",
+   "leadership": 165,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Wolves of Ragnarok"
+ },
+ {
+   "id": 116,
+   "unit_name": "Spartan Chosen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790252/cb-tierlist/spartan-chosen.png",
+   "leadership": 295,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Sparta"
+ },
+ {
+   "id": 117,
+   "unit_name": "Spear Militia",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790800/cb-tierlist/spear-militia.png",
+   "leadership": 80,
+   "era": 6,
+   "era_desc": "Feudal Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 118,
+   "unit_name": "Spear Sergeants",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790273/cb-tierlist/spear-sergeants.png",
+   "leadership": 220,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 119,
+   "unit_name": "Squires",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790732/cb-tierlist/squires.png",
+   "leadership": 155,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 120,
+   "unit_name": "Sunward Phalanx",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790256/cb-tierlist/sunward-phalanx.png",
+   "leadership": 300,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Alexander"
+ },
+ {
+   "id": 121,
+   "unit_name": "Swinefeathers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790399/cb-tierlist/swinefeathers.png",
+   "leadership": 235,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Ranged Infantry",
+   "season": "Lionfire"
+ },
+ {
+   "id": 122,
+   "unit_name": "Sword Militia",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790804/cb-tierlist/sword-militia.png",
+   "leadership": 65,
+   "era": 6,
+   "era_desc": "Feudal Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 123,
+   "unit_name": "Symmachean Paladins",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790279/cb-tierlist/symmachean-paladins.png",
+   "leadership": 245,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Legacy of Fire"
+ },
+ {
+   "id": 124,
+   "unit_name": "Symmachean Stalwarts",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790283/cb-tierlist/symmachean-stalwarts.png",
+   "leadership": 240,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Legacy of Fire"
+ },
+ {
+   "id": 125,
+   "unit_name": "Tenant Farmers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790776/cb-tierlist/tenant-farmers.png",
+   "leadership": 40,
+   "era": 5,
+   "era_desc": "Rustic Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 126,
+   "unit_name": "Tercio Arquebusiers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790469/cb-tierlist/tercio-arquebusiers.png",
+   "leadership": 310,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 127,
+   "unit_name": "Tiger Fists",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790512/cb-tierlist/tiger-fists.png",
+   "leadership": 215,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Silla"
+ },
+ {
+   "id": 128,
+   "unit_name": "Tseregs",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790641/cb-tierlist/tseregs.png",
+   "leadership": 235,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 5,
+   "tier_desc": "D",
+   "type": "Melee Infantry",
+   "season": "Wrath of the Nomads"
+ },
+ {
+   "id": 129,
+   "unit_name": "Vanguard Archers",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790545/cb-tierlist/vanguard-archers.png",
+   "leadership": 150,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 130,
+   "unit_name": "Varangian Guards",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790474/cb-tierlist/varangian-guards.png",
+   "leadership": 305,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Melee Infantry",
+   "season": "Helheim"
+ },
+ {
+   "id": 131,
+   "unit_name": "Vassal Longbowmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790403/cb-tierlist/vassal-longbowmen.png",
+   "leadership": 245,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Ranged Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 132,
+   "unit_name": "Village Watchmen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790781/cb-tierlist/village-watchmen.png",
+   "leadership": 30,
+   "era": 5,
+   "era_desc": "Rustic Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 133,
+   "unit_name": "Winged Hussars",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790260/cb-tierlist/winged-hussars.png",
+   "leadership": 305,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 134,
+   "unit_name": "Woodcutters",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790786/cb-tierlist/woodcutters.png",
+   "leadership": 40,
+   "era": 5,
+   "era_desc": "Rustic Era",
+   "tier": 6,
+   "tier_desc": "E",
+   "type": "Melee Infantry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 135,
+   "unit_name": "Wuwei Mansion Guard",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790407/cb-tierlist/wuwei-mansion-guard.png",
+   "leadership": 225,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Dragonrise"
+ },
+ {
+   "id": 136,
+   "unit_name": "Wuxing Pikemen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790448/cb-tierlist/wuxing-pikemen.png",
+   "leadership": 155,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Eternal"
+ },
+ {
+   "id": 137,
+   "unit_name": "Xuanjia Heavy Cavalry",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790478/cb-tierlist/xuanjia-heavy-cavalry.png",
+   "leadership": 305,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 4,
+   "tier_desc": "C",
+   "type": "Cavalry",
+   "season": "Dragonrise"
+ },
+ {
+   "id": 138,
+   "unit_name": "Yanyuedao Cavalry",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790265/cb-tierlist/yanyuedao-cavalry.png",
+   "leadership": 320,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Cavalry",
+   "season": "Eternal"
+ },
+ {
+   "id": 139,
+   "unit_name": "Yeomen",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790411/cb-tierlist/yeomen.png",
+   "leadership": 240,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Cavalry",
+   "season": "Unit tree"
+ },
+ {
+   "id": 140,
+   "unit_name": "Zealot",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790287/cb-tierlist/zealot.png",
+   "leadership": 225,
+   "era": 2,
+   "era_desc": "Heroic Era",
+   "tier": 2,
+   "tier_desc": "A",
+   "type": "Melee Infantry",
+   "season": "Sacrum Romanum"
+ },
+ {
+   "id": 141,
+   "unit_name": "Zweihanders",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790327/cb-tierlist/zweihanders.png",
+   "leadership": 300,
+   "era": 1,
+   "era_desc": "Golden Era",
+   "tier": 3,
+   "tier_desc": "B",
+   "type": "Melee Infantry",
+   "season": "Knightfall"
+ },
+ {
+   "id": 142,
+   "unit_name": "Zykalian Militia",
+   "imageUrl": "https://res.cloudinary.com/dlchmpb9w/image/upload/v1766790209/cb-tierlist/zykalian-militia.png",
+   "leadership": 175,
+   "era": 3,
+   "era_desc": "Silver Era",
+   "tier": 0,
+   "tier_desc": "*",
+   "type": "Ranged Infantry",
+   "season": "Legacy of Fire"
+ }
+]

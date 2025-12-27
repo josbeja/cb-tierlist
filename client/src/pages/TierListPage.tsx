@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { TierList } from '../components/TierList';
-import type { TierList as TierListType, UnitMap } from '../types';
+import type { TierList as TierListType, UnitMap, UnitData } from '../types';
 
 export const TierListPage = () => {
     const [tierData, setTierData] = useState<TierListType | null>(null);
@@ -21,10 +21,16 @@ export const TierListPage = () => {
                 }
 
                 const tierlistData = await tierlistRes.json();
-                const units = await unitsRes.json();
+                const unitsArray: UnitData[] = await unitsRes.json();
+
+                // Convert array to map using unit_name as key
+                const unitsMap: UnitMap = {};
+                unitsArray.forEach(unit => {
+                    unitsMap[unit.unit_name] = unit;
+                });
 
                 setTierData(tierlistData.tiers);
-                setUnitData(units);
+                setUnitData(unitsMap);
             } catch (err) {
                 setError(err instanceof Error ? err.message : 'An error occurred');
                 console.error(err);

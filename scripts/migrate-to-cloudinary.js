@@ -75,27 +75,26 @@ async function migrateImages() {
 
     console.log(`✓ Cloudinary configured: ${process.env.CLOUDINARY_CLOUD_NAME}\n`);
 
-    // Load units.json
+    // Load units.json (now it's an array)
     const unitsPath = path.join(__dirname, '..', 'client', 'public', 'data', 'units.json');
-    const unitsData = JSON.parse(await fs.readFile(unitsPath, 'utf-8'));
+    const unitsArray = JSON.parse(await fs.readFile(unitsPath, 'utf-8'));
 
     // Create backup
     const backupPath = path.join(__dirname, '..', 'client', 'public', 'data', 'units-backup.json');
-    await fs.writeFile(backupPath, JSON.stringify(unitsData, null, 2));
+    await fs.writeFile(backupPath, JSON.stringify(unitsArray, null, 2));
     console.log('✓ Backup created: units-backup.json\n');
 
-    const units = Object.keys(unitsData);
-    console.log(`Found ${units.length} units to migrate\n`);
+    console.log(`Found ${unitsArray.length} units to migrate\n`);
 
     let successful = 0;
     let failed = 0;
     const failedUnits = [];
 
-    for (let i = 0; i < units.length; i++) {
-        const unitName = units[i];
-        const unit = unitsData[unitName];
+    for (let i = 0; i < unitsArray.length; i++) {
+        const unit = unitsArray[i];
+        const unitName = unit.unit_name;
 
-        console.log(`[${i + 1}/${units.length}] Processing: ${unitName}`);
+        console.log(`[${i + 1}/${unitsArray.length}] Processing: ${unitName}`);
 
         // Skip if already migrated (URL doesn't contain drive.google.com)
         if (!unit.imageUrl || !unit.imageUrl.includes('drive.google.com')) {
@@ -122,8 +121,8 @@ async function migrateImages() {
             console.log(`  ☁️  Uploading to Cloudinary...`);
             const result = await uploadToCloudinary(buffer, unitName);
 
-            // Update units data
-            unitsData[unitName].imageUrl = result.secure_url;
+            // Update unit in array
+            unit.imageUrl = result.secure_url;
 
             console.log(`  ✓ Success! URL: ${result.secure_url}\n`);
             successful++;
@@ -139,7 +138,7 @@ async function migrateImages() {
     }
 
     // Save updated units.json
-    await fs.writeFile(unitsPath, JSON.stringify(unitsData, null, 2));
+    await fs.writeFile(unitsPath, JSON.stringify(unitsArray, null, 2));
 
     // Summary
     console.log('\n' + '='.repeat(50));

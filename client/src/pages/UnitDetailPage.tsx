@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { processImageUrl } from '../utils/imageUtils';
-import type { UnitMap } from '../types';
+import type { UnitMap, UnitData } from '../types';
 import { ArrowLeft } from 'lucide-react';
 
 export const UnitDetailPage = () => {
@@ -14,8 +14,15 @@ export const UnitDetailPage = () => {
         const fetchUnits = async () => {
             try {
                 const response = await fetch('/data/units.json');
-                const data = await response.json();
-                setUnits(data);
+                const unitsArray: UnitData[] = await response.json();
+
+                // Convert array to map using unit_name as key
+                const unitsMap: UnitMap = {};
+                unitsArray.forEach(unit => {
+                    unitsMap[unit.unit_name] = unit;
+                });
+
+                setUnits(unitsMap);
             } catch (error) {
                 console.error('Error loading unit data:', error);
             } finally {
@@ -135,15 +142,26 @@ export const UnitDetailPage = () => {
 
                     <div style={{
                         fontSize: '1.1rem',
-                        lineHeight: '1.8',
-                        color: 'var(--color-text-secondary)'
+                        lineHeight: 'normal',
+                        color: 'var(--color-text-secondary)',
+                        display: 'grid',
+                        gap: '1rem'
                     }}>
-                        <p>
-                            Esta es la información extendida de <strong>{unitName}</strong>.
-                        </p>
-                        <p>
-                            Puedes agregar más detalles editando el archivo <code>units.json</code>.
-                        </p>
+                        <div>
+                            <strong style={{ color: 'var(--color-gold)' }}>Type:</strong> {unit.type}
+                        </div>
+                        <div>
+                            <strong style={{ color: 'var(--color-gold)' }}>Leadership:</strong> {unit.leadership}
+                        </div>
+                        <div>
+                            <strong style={{ color: 'var(--color-gold)' }}>Era:</strong> {unit.era_desc}
+                        </div>
+                        <div>
+                            <strong style={{ color: 'var(--color-gold)' }}>Tier:</strong> {unit.tier_desc}
+                        </div>
+                        <div>
+                            <strong style={{ color: 'var(--color-gold)' }}>Season:</strong> {unit.season}
+                        </div>
                     </div>
                 </div>
             </div>
